@@ -19,3 +19,10 @@
   background-color: #41d1ff;
   transition: 200ms ease;
 }
+
+.btn {
+  background-color: #41d1ff;
+  color: blue;
+  width: 150px;
+  height: 50px;
+}
