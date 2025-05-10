@@ -1,0 +1,103 @@
+/* -- Approach section management, customer, collaborative --*/
+
+/* .customer-support-litem {
+    width: 35px;
+    height: 35px;
+} */
+
+/* == FOOTER == */
+
+.footer-logo-link {
+  /* font-family: var(--font-family); */
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 93%;
+  color: #173a56;
+  margin-bottom: 18px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.social-icons-list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.social-icon-link {
+  width: 40px;
+  height: 40px;
+  background-color: #edfffc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.footer-social-icon {
+  stroke: var(--green);
+  fill: transparent;
+}
+
+.footer-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--main-color);
+  max-width: 280px;
+  margin-bottom: 30px;
+}
+
+.footer-form-label {
+  position: relative;
+  margin-bottom: 25px;
+  display: block;
+}
+
+.footer-form-icon-svg {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  left: 12px;
+  fill: var(--green);
+}
+
+.footer-input-phone {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  padding-left: 48px;
+  width: 325px;
+  height: 48px;
+}
+
+.footer-input-phone::placeholder {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: var(--green);
+}
+
+.footer-input-phone:focus,
+.footer-input-phone:hover {
+  border-color: var(--green);
+}
+
+.footer-submit-btn {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: var(--main-bg-color);
+  border-radius: 4px;
+  width: 131px;
+  height: 39px;
+  background-color: var(--green);
+  border: none;
+  display: block;
+}
