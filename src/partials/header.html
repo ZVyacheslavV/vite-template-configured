@@ -1,19 +1,27 @@
+<!-- HEADER -->
 <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+  <div class="container header-container">
+    <a href="./index.html" class="header-logo">
+      <img src="./images/logo.svg" alt="Logo" height="36" width="40" />
+      Product
+    </a>
+
+    <nav class="header-nav">
+      <ul class="header-nav-list">
+        <li><a class="header-nav-link" href="./index.html">Product</a></li>
+        <li>
+          <a class="header-nav-link" href="./pricing.html">Pricing</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li>
+          <a class="header-nav-link" href="./customer.html">Customers</a>
         </li>
+        <li><a class="header-nav-link" href="">Resources</a></li>
       </ul>
     </nav>
+
+    <ul class="header-btn-list">
+      <li><button class="header-btn" type="button">Sign In</button></li>
+      <li><button class="header-btn" type="button">Sign Up</button></li>
+    </ul>
   </div>
 </header>
